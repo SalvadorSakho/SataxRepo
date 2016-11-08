@@ -6,7 +6,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-        <property name="connection.url">jdbc:sqlserver://HP\SQLEXPRESS:1433;IntegratedSecurity=true;databaseName=555
+        <property name="connection.url">jdbc:sqlserver://HP\SQLEXPRESS:...;IntegratedSecurity=true;databaseName=....
         </property>
         <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
         <property name="show_sql">true</property>
