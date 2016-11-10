@@ -5,4 +5,4 @@ Seccond option. You can pass simple registration and You will have the opportuni
 
 During the creation of this project were used such instruments as:
   Back end: JavaEE (Servlet, Java Persistence API, Hibernate); XML (config file for hibernate); MS SQL DataBase; Apache Tomcat; 
-  Front end: HTML, Jquery, Ajax
+  Front end: HTML, Jquery, Ajax.
