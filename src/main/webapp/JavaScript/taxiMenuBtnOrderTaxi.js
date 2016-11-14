@@ -9,4 +9,16 @@ $(document).ready(function () {
         $("#taxiOrderDivId").fadeOut()
         return false
     })
+
+})
+
+$(document).ready(function () {
+    $("#btnSataxNewsId").toggle(function () {
+        $("#tabIDLastOrders").fadeIn()
+        return false;
+    }, function () {
+        $("#tabIDLastOrders").fadeOut()
+        return false
+    })
+
 })

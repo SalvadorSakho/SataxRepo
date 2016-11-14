@@ -16,7 +16,6 @@ import java.io.PrintWriter;
 @WebServlet("/workSpace")
 public class ServletWorkSpace extends HttpServlet {
 
-    /*sdf*/
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter out = new PrintWriter(new OutputStreamWriter(response.getOutputStream(), "UTF8"), true);
@@ -34,11 +33,11 @@ public class ServletWorkSpace extends HttpServlet {
         out.print("<script type=\"text/javascript\" src=\"JavaScript/taxiMenuBtnOrderTaxi.js\"></script>\n");
         out.print("<script type=\"text/javascript\" src=\"JavaScript/workSpaceSetOrder.js\"></script>\n");
         out.println("</head>");
-        out.println("<body class=\"body\">" +
+        out.println("<body class=\"body\" id=\"bodyID\">" +
                 "<div name=\"topMenu\" id=\"topMenu\">" +
                 "<ul class=\"navigation\">\n" +
                 "<li id=\"btnToMainPageId\" class=\"nav-item\"><a href=\"http://localhost:8085/\">На головну сторінку</a></li>\n" +
-                "<li id=\"btnSataxNewsId\" class=\"nav-item\"><a href=\"#\">Satax новини</a></li>\n" +
+                "<li id=\"btnSataxNewsId\" class=\"nav-item\"><a href=\"#\">Ваші замовлення</a></li>\n" +
                 "<li id=\"btnOrderTaxi\" class=\"nav-item\"><a href=\"#\">Замовити таксі</a></li>\n" +
                 "<li id=\"btnContacts\" class=\"nav-item\"><a href=\"#\">Контакти</a></li>\n" +
                 "</ul>\n" +
@@ -84,10 +83,7 @@ public class ServletWorkSpace extends HttpServlet {
                 "<br>" +
                 "<br>" +
                 "<br>" +
-                "<br>" +
-                "<br>" +
-                "<br>" +
-                "<div id=\"newsDiveID\" name=\"newsDivNAme\"></div>" +
+                "<div id=\"newsDivID\" name=\"newsDivNAme\"></div>" +
                 "<br>" +
                 "<br>" +
                 "<br>" +

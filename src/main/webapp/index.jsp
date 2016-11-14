@@ -165,6 +165,7 @@
     <br>
 
     <div id="footer">
+        <%--  <a name="http://rss-script.ru/?rss%5B%5D=http%3A%2F%2Fnews.finance.ua%2Fru%2Frss&count=5" class="href">--%>
         <div id="copyRight" align="center">
             <script language="JavaScript">
                 document.write('<FONT COLOR="white">');
@@ -176,6 +177,33 @@
             </script>
         </div>
     </div>
+    <!--
+Используйте эти CSS классы для настройки внешнего вида вашей ленты.
+Скопируйте это внутрь тега <head>:
+		<style>
+		/*div - контейнер для новости*/
+		.rss{margin:10px;  padding-bottom: 15px;}
+
+		/*div - контейнер для всей ленты*/
+		.rss_container{padding:10px; background: #fff;}
+
+		/*div - контейнер для медиа-файлов*/
+		.media{background-color:#f0f0f0; background-image:url(http://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
+
+		/*div - ссылка на медиа-файл*/
+		.media a{color:#000000;font-size:0.7em}
+
+		/*div - изображение медиа-файл*/
+		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
+
+		/*div - контейнер даты новости и заголовка rss-канала*/
+		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
+
+		/*div - ссылка даты новости и заголовка rss-канала*/
+		.rssdate a{color:#c0c0c0;}
+
+		</style>
+-->
 </div>
 </body>
 </html>

@@ -220,10 +220,10 @@ ul li {
     width: 216px;
 }
 
-#newsDiveID {
-    width: 50px;
-    height: 50px;
-    color: #00c6ff;
+#newsDivID {
+    margin-left: 50%;
+    width: auto;
+    height: auto;
 }
 
 .datepicker {
@@ -412,6 +412,7 @@ tr:last-child > .datepicker-td {
 
 /*====================== Orders tab ====================== */
 #tabIDLastOrders {
+    display: none;
     border-radius: 17px;
     opacity: 0.5;
     margin-left: 25%;

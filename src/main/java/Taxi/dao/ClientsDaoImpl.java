@@ -21,7 +21,7 @@ public class ClientsDaoImpl implements ClientsDao {
         Session session = hibernateUtil.getSessionFactory().getCurrentSession();
         try {
             session.beginTransaction();
-            Query query = session.createQuery("from Clients c");
+                Query query = session.createQuery("from Clients c");
             List<Clients> clients = query.list();
             return clients;
 
